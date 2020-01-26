@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Odin Project - Etch-a-Sketch</title>
+</head>
+
+<body>
+  <div id="buttonarea">
+    <button id="reset"onclick="gridPrompt()">Reset</button>
+    <input type="checkbox" id="toggleRandomColor" onclick="toggleRandomColor()">
+    <label for="toggleRandomColor">Toggle Random Color (Reset to see changes)</label>
+
+  </div>
+  <div id="drawingarea" class="flex-grid"></div>
+  <script src="etchasketch.js"></script>
+</body>
+
+</html>
